@@ -27,10 +27,11 @@ nav {
 }
 
 nav a {
-  margin-left: 20px;
+  margin-left: 7.5rem;
   color: #fca726;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1.2rem;
+
 }
 
 article {
@@ -57,6 +58,10 @@ p {
   font-family:'Times New Roman', Times, serif;
 }
 
+p:nth-of-type(2) {
+clear: both;
+}
+
 li {
   font-family:'Times New Roman', Times, serif;
 }
@@ -64,7 +69,6 @@ li {
 a {
   color: #FF8A00;
   text-decoration: none;
-  font-weight: bold;
 }
 
 article a {
@@ -72,6 +76,7 @@ article a {
   margin-left: 90%;
   color: #ffffff;
   background: #FF8A00;
+  padding: 0.2rem;
 }
 
 
